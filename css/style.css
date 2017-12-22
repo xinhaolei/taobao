@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header div.right{
+    width: 10rem;
+    height: 1rem;
+    background: #fe5500 url("../img/01.png") no-repeat 0.12rem;
+    background-size: 0.72rem 0.546rem;
+    position: relative;
+}
+header div.right a{
+    width: 8.813rem;
+    height: 0.666rem;
+    background: #b52700;
+    display: block;
+    position: absolute;
+    top: 0.16rem;
+    right: 0.2rem;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 0.666rem;
+    color: #fcfcfc;
+    font-size:13px;
+}
+[data-dpr="2"] header div.right a {
+	font-size: 26px;
+}
+[data-dpr="3"] header div.right a {
+	font-size: 39px;
+}
+header div.right a .iconfont.icon-fangdajing{
+    font-size: 16px;
+    padding-right: 0.1rem;
+}
+[data-dpr="2"] header div.right a .iconfont.icon-fangdajing{
+    font-size: 26px;
+}
+[data-dpr="3"] header div.right a .iconfont.icon-fangdajing{
+    font-size: 39px;
+}
+/*轮播图*/
+div.flash{
+    width: 10rem;
+    height: 3.12rem;
+    background: blue;
+}
+div.flash .swiper-container img{
+    width: 10rem;
+    height: 3.12rem;
+}
+/*图标*/
+.main{
+    width: 10rem;
+    height:7rem;
+    background: #fff;
+}
+.main ul{
+    width: 10rem;
+    height: 4.5rem;
+}
+.main ul li{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    top: 0.346rem;
+    position: relative;
+    text-align: center;
+}
+.main ul li a{
+    width:2rem ;
+    height: 1.4rem;
+    float: left;
+}
+.main ul li a img{
+    width: 2rem;
+    height: 1.3rem;
+}
+.main ul li p{
+    font-size: 0.35rem;
+}
+/*头条*/
+.main .main_span{
+    width: 10rem;
+    height:1rem ;
+}
+.main .main_span span:nth-of-type(1){
+    width: 2.2rem;
+    height: 1rem;
+    border-right: 1px solid #e8e8e8;
+    position: relative;
+    left: 0.13rem;
+    display: block;
+    float: left;
+}
+.main .main_span span img{
+    width:2rem ;
+    height: 0.8rem;
+    position: relative;
+    display: block;
+    top: 0.2rem;
+}
+.main .main_span span:nth-of-type(2){
+    color: #d81421;
+    border: 1px solid #d81421;
+    width: 0.9rem;
+    height: 0.56rem;
+    border-radius: 0.12rem;
+    float: left;
+    text-align: center;
+    font-size: 0.35rem;
+    line-height: 0.56rem;
+    top: 0.2rem;
+    left: 0.3rem;
+    position: relative;
+}
+.main .main_span span:nth-of-type(3){
+    width: 6.4rem;
+    height: 1rem;
+    color: #353535;
+    font-size: 0.35rem;
+    line-height: 1rem;
+    left: 0.5rem;
+    position: relative;
+}
